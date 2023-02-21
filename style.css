@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: sans-serif;
+}
+header{
+  height: 100px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+}
+#logo{
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+}
+ul li a{
+  padding: 0 20px;
+  text-decoration: none;
+  color: #F9FAF8;
+  display: inline-block;
+}
+.firstMain{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #1F2937;
+  color: #000;
+}
+#awesome{
+  color: #f9faf8;
+  font-size: 48px;
+  font: weight 800px;
+}
+#parag{
+  color: #e5e7eb;
+  font-size: 18px;
+  padding-right: 10px;
+}
+#signUp{
+  padding: 5px 40px;
+  margin-top: 8px;
+  background-color: #3882f6;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+}
+.secondMain{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+#randoInfo{
+  padding: 30px;
+}
+img{
+  padding: 10px;
+  border-radius: 20px;
+}
+#illustration{
+  display: flex;
+  
+  
+  
+}
+p{
+  padding: 10px 21px;
+   
+  
+
+  
+}
+
+#img1{
+  
+  width: 200px;
+  text-align: center;
+  
+}
+#img2{
+  
+  
+  width: 200px;
+  text-align: center;
+}
+#img3{
+  
+  
+  width: 200px;
+  text-align: center;
+}
+#img4{
+  
+  
+  width: 200px;
+  text-align: center;
+}
+.thirdMain{
+  background-color: #E5e7eb;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+#quote{
+  width: 685px;
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: normal;
+  padding-top: 50px;
+}
+#signiture{
+  padding-left: 500px;
+  font-weight: bold;
+  font-size:large;
+}
+
+.forthMain{
+  
+  padding: 50px;
+
+}
+#insideForthMain{
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 5px;
+  padding: 15px;
+  color: white;
+  
+}
+#callToAction{
+  font-size: 25px;
+}
+#bottomSignUp{
+  padding: 5px 40px;
+  margin-top: 30px;
+  margin-left: 100px;
+
+  background-color: #3882f6;
+  border-color: white;
+  border-width: 10px;
+  outline: none;
+  border: 2px solid;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+}
+
+.footer{
+  background-color: #1F2937 ;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 40px;
+}
